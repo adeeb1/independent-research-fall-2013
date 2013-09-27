@@ -1,0 +1,46 @@
+<% provide(:title, 'Contact Us') %>
+
+<form class="form-horizontal" method="post" action="send_email">
+	<div class="control-group">
+		<label class="control-label" for="txtFirstName">First Name</label>
+		
+		<div class="controls">
+			<input name="txtFirstName" type="text" placeholder="First Name"></input>
+		</div>
+	</div>
+	
+	<div class="control-group">
+		<label class="control-label" for="txtLastName">Last Name</label>
+		
+		<div class="controls">
+			<input name="txtLastName" type="text" placeholder="Last Name"></input>
+		</div>
+	</div>
+		
+	<div class="control-group">
+		<label class="control-label" for="txtEmail">Email</label>
+		
+		<div class="controls">
+			<input name="txtEmail" type="text" placeholder="Email"></input>
+		</div>
+	</div>
+	
+	<div class="control-group">
+		<label class="control-label" for="txtSubject">Subject</label>
+		
+		<div class="controls">
+			<input name="txtSubject" type="text" placeholder="The subject of your message"></input>
+		</div>
+	</div>
+	
+	<div class="controls">
+		<p>Please select the category:</p>
+		
+		<select>
+			<option>Product Inquiry</option>
+			<option>Product Feedback</option>
+			<option>General Inquiry</option>
+			<option>Billing/Purchases</option>
+		</div>
+	</div>
+</form>
